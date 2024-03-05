@@ -30,6 +30,8 @@ You need to have node, npm and json server installed. // A "node modules" folder
 
 When making the fetch request you need to use the port 3000 or modify the url in the loadItems function to match the port that you're using.
 
+Run in the terminal the command "json server --watch items-demo.json" 
+
 // The actual app
 
 1.
