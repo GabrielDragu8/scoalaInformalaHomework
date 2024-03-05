@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>5e Inventory Manager</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  </head>
+  <body>
+    <header>
+      <h1>5e Inventory Manager</h1>
+    </header>
+    <div id="characterInfo" class="character-info">
+      <div id="characterInfoLeft" class="character-info-left">
+        <section>
+          <form id="characterInput">
+              <div class="form-division">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Character's name">
+              </div>
+                
+              <div class="form-division">
+                <label name="strenght" for="strScore">Strenght</label>
+                <input type="number" name="strenght" id="strScore" value="10" min="1" max="30" onchange="calculateCarryingCapacity()">
+              </div>
+
+              <div class="form-division">
+                <label for="size">Size</label>
+                <select id="size" name="size" onchange="calculateCarryingCapacity()">
+                  <option value="tiny">Tiny</option>
+                  <option value="small">Small</option>
+                  <option value="medium" selected>Medium</option>
+                  <option value="large">Large</option>
+                  <option value="huge">Huge</option>
+                  <option value="gargantuan">Gargantuan</option>
+                </select>
+              </div>
+
+              <div class="form-division">
+                <label for="multiplier">Multiplier</label>
+                <select name="multiplier" id="multiplier" onchange="calculateCarryingCapacity()">
+                  <option value="1" selected>1</option>
+                  <option value="2">2</option>
+                  <option value="4">4</option>
+                  <option value="8">8</option>
+                </select>
+              </div>
+          </form>
+        </section>
+
+          <div class="search-and-filter">
+            <div class="search-and-glass">
+              <label for="search" id="searchLabel">Search</label><br>
+              <input type="search" id="search" name="search" placeholder="Search for items">
+              <i class="fa-solid fa-magnifying-glass" id="search-glass"></i>
+            </div>
+            
+            <select id="filter-select">
+              <option value="" selected>No Filter</option>
+              <option value="Weapon">Weapons</option>
+              <option value="Armor">Armor</option>
+              <option value="Adventuring Gear">Adventuring Gear</option>
+              <option value="Miscellaneous">Miscellaneous</option>
+              <option value="Ammunition">Ammunition</option>
+              <option value="Tools">Tools</option>
+              <option value="Artisan's tools">Artisan's Tools</option>
+              <option value="Musical instrument">Musical Instruments</option>
+            </select>
+          </div>
+          
+      </div>
+      <div id="characterInfoRight" class="character-info-right">
+        <div id="characterOutput" class="character-output">
+          <p><span id="characterNameDisplay">Character</span>'s carrying capacity is <span id="totalWeight">0</span> / <span id="maxCapacity">0</span> lbs. </p>
+          <p>Items in the inventory: <span id="totalQuantity">0</span></p>
+          <p>Total value: <span id="totalValue">0</span> GP</p>
+          <p>Status: <em><span id="encumberanceStatus">not encumbered</span></em></p>
+        </div>
+      </div>
+    </div>
+    <main class="main-display">
+      <div id="itemShop" class="container">
+
+      </div>
+      <div id="inventory" class="container">
+  
+      </div>
+    </main>
+    <footer>
+      Gabriel Dragu
+    </footer>
+    <script src="./main.js" async defer></script>
+  </body>
+</html>
