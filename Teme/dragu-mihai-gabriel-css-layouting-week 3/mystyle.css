@@ -1,0 +1,112 @@
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.images-div {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  margin-top: 30px;
+}
+
+.wild-west-hoodie-title {
+  color: black;
+  font-size: 16px;
+  font-family: Muli;
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  font-weight: 500;
+}
+
+.div-symbols {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+}
+
+.div-star {
+  display: flex;
+  justify-content: space-around;
+}
+
+.rating-score {
+  font-family: Muli;
+  margin-top: 3px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: gray; 
+}
+
+.rating-number {
+  font-family: Muli;
+  margin-top: 3px;
+  color: gray;
+  margin-left: 10px;
+}
+
+.lorem-ipsum {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  font-family: Muli;
+  font-size: 12px;
+}
+
+.lorem-paragraph {
+  width: 200px;
+  text-align: center;
+  color: gray;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  margin-top: 5px;
+}
+
+
+
+.cart-button {
+  height: 34px;
+  background-color: black;
+  color: white;
+  width: 80px;
+  border: none;
+  font-family: muli;
+  font-weight: 700;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.view-button {
+  height: 34px;
+  width: 80px;
+  background-color: white;
+  font-family: muli;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 5px;
+  border-color: black;
+}
+
+.star-symbol {
+  margin-top: 0px;
+  color: orange;
+  font-size: 16px;
+}
+
+.heart-symbol-gray {
+  color: gray;
+  margin-top: 3px;
+  font-size: 16px;
+}
+
+.heart-symbol-red {
+  color: red;
+  margin-top: 3px;
+  font-size: 16px;
+}
+

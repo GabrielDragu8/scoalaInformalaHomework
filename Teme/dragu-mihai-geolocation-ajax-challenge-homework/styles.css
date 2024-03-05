@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-size: 120%;
+}
+
+.description {
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+
+.icon-desc {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  background-color: black;
+  padding: 2em;
+  border-radius: 30px;
+  max-width: 420px;
+  width: 100%;
+  margin: 1em;
+  font-family: arial;
+  color: white;
+}
+
+.display {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1.temp {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 0;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/563639203b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <form>
+      <input name="subject" type="hidden" value="Class" />
+
+      <fieldset class="section-header"><i class="fa-solid fa-info"></i> About</fieldset>
+      <fieldset>
+        <label for="recipe_title">Recipe title</label><br />
+        <input class="input-expand" type="text" id="recipe_title" value="Title" /><br />
+        <label for="recipe_description">Description</label><br />
+        <textarea class="input-expand" id="recipe_description">About the recipe</textarea><br />
+        <div class="input-speading">
+          <div>
+            <label for="portions">Portions</label>
+          <input class="input-portion-time-dificulty" type="number" id="portions" value="1" />
+          </div>
+          <div>
+            <label for="time">Time(mins)</label>
+            <input class="input-portion-time-dificulty" type="number" id="time" value="5" />
+          </div>
+          <div>
+            <label for="dificulty">Dificulty</label>
+            <input class="input-portion-time-dificulty" type="number" id="dificulty" value="1" />
+          </div>
+          
+        </div>
+      </fieldset>
+
+      <fieldset class="section-header"><i class="fa-solid fa-list"></i> Ingredients</fieldset>
+      <fieldset>
+        <ul>
+          <li>300 g brown rice</li>
+          <li>2 pc red onions</li>
+          <li>1 pc fresh red chili</li>
+          <li>25 g unsalted butter</li>
+          <li>6 pc large free-range eggs</li>
+        </ul>
+        
+        <div class="input-speading">
+          <input type="text" id="quantity" value="Qty." />
+          <input type="text" id="unit" value="Unit" />
+          <span>of</span>
+          <input type="text" id="ingredient" value="Ingredient" />
+          <button class="add-button"><i class="fa-solid fa-square-plus"></i></button>
+        </div>
+        
+      </fieldset>
+
+      <fieldset class="section-header"><i class="fa-solid fa-list-ol"></i> Steps</fieldset>
+      <fieldset>
+        <ol>
+          <li>
+            Cook the rice in a pan of boiling salted water according to the
+            packet instructions, then drain and refresh unde cold water, leaving
+            it in the colander.
+          </li>
+          <li>
+            At the same time, poach the fish in a large pan of simmering salted
+            water on a medium heat for 10 minutes, then carrefully remove with a
+            slotted spoon. Turn the heat up under the poaching water and bring
+            back to a good simmer.
+          </li>
+          <li>
+            Meanwhile, peel the onions and finely slice with red chilli (dessed
+            if you like) and coriander stalks. Peel and finely chop the garlic
+            and ginger. Place it all in a large frying pan on a medium heat with
+            1 tablespoon of oil and the butter, and cook for 10 minutes, or
+            until soft but not coloured, stirring occasionally.
+          </li>
+        </ol>
+        <label for="step-description">Step</label><br>
+        <textarea class="input-expand" id="step_description">Step description</textarea><br>
+        <button class="add-step-button"><i class="fa-solid fa-square-plus"></i> Add step</button>
+      </fieldset>
+        <div class="save-or-reset">
+          <button class="cancel-button"><i class="fa-regular fa-trash-can"></i> Cancel</button>
+          <button class="save-button"><i class="fa-regular fa-floppy-disk"></i> Save recipe</button>    
+        </div>
+    </form>
+  </body>
+</html>

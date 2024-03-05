@@ -1,0 +1,41 @@
+html, body {
+  background-color: black;
+}
+
+.container {
+  text-align: center;
+  padding-top: 100px;
+  height: 100vh;
+}
+
+#darkMode {
+  background-color: white;
+  margin: 0 auto;
+  font-family: tahoma;
+  border-style: solid;
+  border-color: black;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+#darkModeText {
+  margin-top: 27px;
+  font-size: 15px;
+  color: white;
+  font-family: tahoma;
+}
+
+#darkMode:hover {
+  opacity: 0.8;
+}
+
+#darkMode:active {
+  opacity: 0.5;
+}

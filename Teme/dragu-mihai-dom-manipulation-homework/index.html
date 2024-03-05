@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <section>
+      <form action="/submit" method="get" id="cardForm">
+        <div class="confirmation-banner" id="confirmationBanner">
+          <div class="banner-division">
+            <div id="check-mark">&#10003;</div>
+            <div id="confirmationText"></div></div>
+          </div>
+         
+        </div>
+
+        <fieldset>
+          <div class="horizontal-division">
+            <div class="vertical-division">
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="First name"
+              />
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Last name"
+              />
+              <br>
+              <label>Gender</label>
+              
+              <div class="gender-division">
+                <label for="gender"><input type="radio" id="male" name="gender" value="male" required>M</label>
+              </div>
+              <div class="gender-division">
+                <label for="gender"><input type="radio" id="female" name="gender" value="female">F</label>
+              </div>
+
+              <textarea
+                name="message"
+                class="text-area"
+                placeholder="Your message here..."
+                id="clientMessage"
+              ></textarea>
+
+              <div class="button-divison">
+                <button class="submit-button" type="submit" id="submitButton" >Submit</button>
+              </div>
+            </div>
+  
+            <div class="my-image">
+              <img
+                id="the-image"
+                src="https://neweralive.na/storage/images/2023/may/lloyd-sikeba.jpg"
+              />
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="error-banner" id="errorBanner">
+          <div class="banner-division">
+            <div id="errorText"></div></div>
+          </div>    
+        </div>
+      </form>
+    </section>
+    <script src="script.js" async defer></script>
+  </body>
+</html>

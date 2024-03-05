@@ -1,0 +1,97 @@
+.error {
+  border: 2px solid red;
+}
+
+.horizontal-division {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.vertical-division {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+.my-image {
+  display: inline-flex;
+}
+
+textarea {
+  resize: none;
+  width: auto;
+}
+
+
+
+fieldset {
+  width: 600px;
+  height: 320px;
+}
+
+#the-image {
+  max-width: 250px;
+}
+
+.submit-button {
+  background-color:rgb(46, 117, 147);
+  color: white;
+  padding: 5px;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 4px;
+}
+
+.button-divison {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#confirmationBanner {
+  width: 630px;
+  height: 40px;
+  background-color: rgb(163, 198, 163);
+  margin-bottom: 5px;
+  border-radius: 5px;
+  opacity: 0;
+  color: green;
+}
+
+#errorBanner {
+  width: 615px;
+  height: 30px;
+  background-color: red;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  opacity: 0;
+  color: white;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.gender-division {
+  display: flex;
+  margin-left: 60px;
+}
+
+section {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.banner-division {
+  display: inline-flex;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+
+
+
+
+
+
