@@ -8,8 +8,8 @@
       "cost": 5,
       "weight": 8,
       "armorClass": "11 + Dex modifier",
-      "strenghtReq": "-",
-      "stealthDisAdv": true
+      "strenghtReq": "none",
+      "stealthDisAdv": "yes"
     },
     {
       "id": 2,
@@ -19,8 +19,8 @@
       "cost": 10,
       "weight": 10,
       "armorClass": "11 + Dex modifier",
-      "strenghtReq": "-",
-      "stealthDisAdv": false
+      "strenghtReq": "none",
+      "stealthDisAdv": "no"
     },
     {
       "id": 3,
@@ -30,8 +30,8 @@
       "cost": 45,
       "weight": 13,
       "armorClass": "12 + Dex modifier",
-      "strenghtReq": "-",
-      "stealthDisAdv": false
+      "strenghtReq": "none",
+      "stealthDisAdv": "no"
     },
     {
       "id": 4,
@@ -41,8 +41,8 @@
       "cost": 10,
       "weight": 12,
       "armorClass": "12 + Dex modifier (max 2)",
-      "strenghtReq": "-",
-      "stealthDisAdv": false
+      "strenghtReq": "none",
+      "stealthDisAdv": "no"
     },
     {
       "id": 5,
@@ -52,8 +52,8 @@
       "cost": 50,
       "weight": 20,
       "armorClass": "13 + Dex modifier (max 2)",
-      "strenghtReq": "-",
-      "stealthDisAdv": false
+      "strenghtReq": "none",
+      "stealthDisAdv": "no"
     },
     {
       "id": 6,
@@ -63,8 +63,8 @@
       "cost": 50,
       "weight": 45,
       "armorClass": "14 + Dex modifier (max 2)",
-      "strenghtReq": "-",
-      "stealthDisAdv": true
+      "strenghtReq": "none",
+      "stealthDisAdv": "yes"
     },
     {
       "id": 7,
@@ -74,8 +74,8 @@
       "cost": 400,
       "weight": 20,
       "armorClass": "14 + Dex modifier (max 2)",
-      "strenghtReq": "-",
-      "stealthDisAdv": false
+      "strenghtReq": "none",
+      "stealthDisAdv": "no"
     },
     {
       "id": 8,
@@ -85,8 +85,8 @@
       "cost": 750,
       "weight": 40,
       "armorClass": "15 + Dex modifier (max 2)",
-      "strenghtReq": "-",
-      "stealthDisAdv": true
+      "strenghtReq": "none",
+      "stealthDisAdv": "yes"
     },
     {
       "id": 9,
@@ -96,8 +96,8 @@
       "cost": 30,
       "weight": 40,
       "armorClass": "14",
-      "strenghtReq": "-",
-      "stealthDisAdv": true
+      "strenghtReq": "none",
+      "stealthDisAdv": "yes"
     },
     {
       "id": 10,
@@ -108,7 +108,7 @@
       "weight": 55,
       "armorClass": "16",
       "strenghtReq": "13",
-      "stealthDisAdv": true
+      "stealthDisAdv": "yes"
     },
     {
       "id": 11,
@@ -119,7 +119,7 @@
       "weight": 60,
       "armorClass": "17",
       "strenghtReq": "15",
-      "stealthDisAdv": true
+      "stealthDisAdv": "yes"
     },
     {
       "id": 12,
@@ -130,7 +130,7 @@
       "weight": 65,
       "armorClass": "18",
       "strenghtReq": "15",
-      "stealthDisAdv": true
+      "stealthDisAdv": "yes"
     },
     {
       "id": 13,
@@ -140,8 +140,8 @@
       "cost": 10,
       "weight": 6,
       "armorClass": "+2",
-      "strenghtReq": "-",
-      "stealthDisAdv": false
+      "strenghtReq": "none",
+      "stealthDisAdv": "no"
     },
     {
       "id": 14,
@@ -627,7 +627,7 @@
       "id": 55,
       "type": "Adventuring Gear",
       "subtype": "Ammunition",
-      "name": "Blowgun needles",
+      "name": "Blowgun needles (50)",
       "cost": 1,
       "weight": 1,
       "description": "-"
@@ -645,7 +645,7 @@
       "id": 57,
       "type": "Adventuring Gear",
       "subtype": "Ammunition",
-      "name": "Sling Bullets",
+      "name": "Sling Bullets (20)",
       "cost": 0.04,
       "weight": 1.5,
       "description": "-"
@@ -735,15 +735,11 @@
       "id": 67,
       "type": "Adventuring Gear",
       "subtype": "Container",
-      "name": "Bascket",
+      "name": "Basket",
       "cost": 0.4,
       "weight": 2,
       "description": "A basket holds 2 cubic feet or 40 pounds of gear."
     },
-
-
-
-
     {
       "id": 68,
       "type": "Adventuring Gear",
@@ -1482,11 +1478,12 @@
       "weight": 1,
       "description": "-"
     },
+    
     {
       "id": 150,
       "type": "Adventuring Gear",
       "subtype": "Artisan's tools",
-      "name": "Alchemist's supplies",
+      "name": "Alchemist's Supplies",
       "cost": 50,
       "weight": 8,
       "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
@@ -1495,7 +1492,7 @@
       "id": 151,
       "type": "Adventuring Gear",
       "subtype": "Artisan's tools",
-      "name": "Brewer's supplies",
+      "name": "Brewer's Supplies",
       "cost": 20,
       "weight": 9,
       "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
@@ -1504,7 +1501,7 @@
       "id": 152,
       "type": "Adventuring Gear",
       "subtype": "Artisan's tools",
-      "name": "Calligrapher's supplies",
+      "name": "Calligrapher's Supplies",
       "cost": 10,
       "weight": 5,
       "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
@@ -1524,7 +1521,7 @@
       "subtype": "Artisan's tools",
       "name": "Cartographer's tools",
       "cost": 15,
-      "weight": 5,
+      "weight": 6,
       "description": "These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency."
     },
     {
@@ -1647,7 +1644,7 @@
     {
       "id": 168,
       "type": "Adventuring Gear",
-      "subtype": "Gamming set",
+      "subtype": "Tools",
       "name": "Forgery kit",
       "cost": 15,
       "weight": 5,
@@ -1656,7 +1653,7 @@
     {
       "id": 169,
       "type": "Adventuring Gear",
-      "subtype": "Gamming set",
+      "subtype": "Gaming set",
       "name": "Dice set",
       "cost": 0.1,
       "weight": 0,
@@ -1665,7 +1662,7 @@
     {
       "id": 170,
       "type": "Adventuring Gear",
-      "subtype": "Gamming set",
+      "subtype": "Gaming set",
       "name": "Dragonchess set",
       "cost": 1,
       "weight": 0.5,
@@ -1674,7 +1671,7 @@
     {
       "id": 171,
       "type": "Adventuring Gear",
-      "subtype": "Gamming set",
+      "subtype": "Gaming set",
       "name": "Playing card set",
       "cost": 0.5,
       "weight": 0,
@@ -1683,7 +1680,7 @@
     {
       "id": 172,
       "type": "Adventuring Gear",
-      "subtype": "Gamming set",
+      "subtype": "Gaming set",
       "name": "Three-Dragon Ante set",
       "cost": 1,
       "weight": 0,
@@ -1803,7 +1800,7 @@
       "subtype": "Tools",
       "name": "Poisoner's kit",
       "cost": 50,
-      "weight": 1,
+      "weight": 2,
       "description": "A poisoner's kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons."
     },
     {
